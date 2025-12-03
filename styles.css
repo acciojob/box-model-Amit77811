@@ -1,36 +1,37 @@
-/*  your css code here. If applicable */
-body {
-    text-align: center;
-    margin-top: 40px;
-    font-family: Arial, sans-serif;
-}
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: white;
+  }
 
-.container {
-    width: 350px;
-    padding: 25px 10px;
-    margin: auto;
-    background-color: #d6d6d6;
-    border: 3px solid black;
-    border-radius: 40px;
+  .container {
+    /* background-color: #ccc;  */
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 20px 30px;
     display: inline-block;
-}
+    width: 280px;
+    text-align: center;
+  }
 
-.green, .yellow, .red {
+  .red, .green, .yellow {
     width: 70px;
     height: 70px;
     border-radius: 50%;
     display: inline-block;
-    margin: 0 12px;
-}
+  }
 
-.green {
+  .green {
     background-color: #2f7e2f;
-}
+  }
 
-.yellow {
+  .yellow {
     background-color: #f8f54a;
-}
+  }
 
-.red {
+  .red {
     background-color: #e3311d;
-}
+  }
